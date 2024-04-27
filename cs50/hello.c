@@ -1,4 +1,6 @@
+
 #include <stdio.h>
+
 
 int main (){
 
@@ -9,6 +11,8 @@ scanf("%s", &firstName);
 printf("What is your last name?\n");
 scanf("%s", &lastName);
 printf("Hello %s %s!", firstName, lastName);
+
+
 
     return 0;
 }
