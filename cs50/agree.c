@@ -2,27 +2,19 @@
 
 int main()
 {
-
     char consent;
-
     printf("Do you agree y/n?");
     scanf("%c", &consent);
 
-    if (consent == 'y')
+    if (consent == 'y' || 'Y')
     {
         printf("Agreed\n");
     }
-    else if (consent == 'Y')
-    {
-        printf("Agreed\n");
-    }
-    else if (consent == 'N')
-    {
-        printf("Not agreed");
-    }
-    else
+    
+    else if ( consent == 'n' || 'N')
     {
         printf("Not agreed\n");
     }
     return 0;
 }
+
