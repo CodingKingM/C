@@ -1,15 +1,23 @@
 #include <stdio.h>
-
+int add(int a, int b);
 int main(){
 
 int x;
 int y;
+
+
 printf("What is the value of x?\n");
 scanf("%i", &x);
 printf("What is the value of y?\n");
 scanf("%i", &y);
-int sum = x+y;
-//printf(" %i + %i = %i", x, y, sum);
-printf(" = %i", x+y);
+
+int z = add(x, y);
+printf("= %i", z);
     return 0;
+}
+
+int add(int a, int b)
+{
+return a + b;
+
 }
