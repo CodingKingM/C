@@ -1,25 +1,23 @@
 #include <stdio.h>
 
-int main (){
-int n;
-//prompt user for positive integer
-do 
+int main()
 {
-    printf("Size:");
-    scanf("%i", &n);
-}
-while (n < 1);
 
-// print an n-by-n grid of bricks
-for (int i = 0; i<n; i++)
-{
-    for (int j = 0; j<n; j++)
+    printf("Enter the size of the column:");
+    int column;
+    scanf("%i", &column);
+    printf("Enter the size of the row:");
+    int row;
+    scanf("%i", &row);
+
+    for (int i = 0; i < column; i++) // for column
     {
-        printf("#");
+        for (int j = 0; j < row; j++) // for row
+        {
+            printf("#");
+        }
+        printf("\n");
     }
-    printf("\n");
-}
-
-
     return 0;
 }
+
