@@ -2,16 +2,17 @@
 
 int main()
 {
-    float x;
-    float y;
+    int x;
+    int y;
     printf("What is the value of x?\n");
     scanf("%i", &x);
     printf("What is the value of y?\n");
     scanf("%i", &y);
     
 
-    // int z = add(x, y);
-    printf("= %f", x / y);
+    
+float z = (float) x / (float) y;//type casting
+    printf("= %f", z); 
     return 0;
 }
 
