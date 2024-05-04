@@ -12,7 +12,7 @@ int main()
 
     
 float z = (float) x / (float) y;//type casting
-    printf("= %f", z); 
+    printf("= %.2f", z);    // %.2f round to 2 signifcant figures
     return 0;
 }
 
