@@ -2,13 +2,15 @@
 
 int main()
 {
-
-    printf("Enter the size of the column:");
-    int column;
-    scanf("%i", &column);
-    printf("Enter the size of the row:");
-    int row;
-    scanf("%i", &row);
+    int column, row;
+// prompt user for positive integer
+    do
+    {
+        printf("Enter the size of the column:");
+        scanf("%i", &column);
+        printf("Enter the size of the row:");
+        scanf("%i", &row);
+    } while (column < 1 || row < 1);
 
     for (int i = 0; i < column; i++) // for column
     {
@@ -20,4 +22,3 @@ int main()
     }
     return 0;
 }
-
