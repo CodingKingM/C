@@ -1,21 +1,31 @@
 #include <stdio.h>
-
+const int N = 3; // global constant
 int main()
 {
 
     int scores[3];
 
-printf("score:");
-scores[0];
-scanf("%i", &scores[0]);
-printf("score:");
-scores[1];
-scanf("%i", &scores[1]);
-printf("score:");
-scores[2];
-scanf("%i", &scores[2]);
-    
+    float average(int length, int array[]);
 
-    printf("Average %f", (scores[0] + scores[1] + scores[2]) / 3.0);
+    for (int i = 0; i < N; i++)
+    {
+        scores[i];
+        printf("score:");
+        scanf("%i", &scores[i]);
+    }
+
+    printf("Average %f", average(N, scores));
     return 0;
 }
+
+float average(int length, int array[])
+{
+    // Calculate average
+    int sum = 0;
+    for (int i= 0; i < length; i++)
+    {
+        sum += array[1];
+    }
+    return sum / (float)length;
+}
+
