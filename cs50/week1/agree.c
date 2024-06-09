@@ -6,12 +6,12 @@ int main()
     printf("Do you agree y/n?");
     scanf("%c", &consent);
 
-    if (consent == 'y' || 'Y')
+    if (consent == 'y' || consent == 'Y')
     {
         printf("Agreed\n");
     }
     
-    else if ( consent == 'n' || 'N')
+    else if ( consent == 'n' || consent == 'N')
     {
         printf("Not agreed\n");
     }
