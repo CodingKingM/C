@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/malek/Documents/GitHub_Repos/C/C/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/malek/Documents/GitHub_Repos/C/C/. -I/Users/malek/Documents/GitHub_Repos/C/C/calebYT -g -std=gnu11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -o CMakeFiles/C.dir/calebYT/helloworld.c.o -c /Users/malek/Documents/GitHub_Repos/C/C/calebYT/helloworld.c",
+  "file": "/Users/malek/Documents/GitHub_Repos/C/C/calebYT/helloworld.c",
+  "output": "CMakeFiles/C.dir/calebYT/helloworld.c.o"
+},
+{
+  "directory": "/Users/malek/Documents/GitHub_Repos/C/C/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/malek/Documents/GitHub_Repos/C/C/. -I/Users/malek/Documents/GitHub_Repos/C/C/calebYT -g -std=gnu11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -o CMakeFiles/C.dir/calebYT/9_variables_expressions_statements.c.o -c /Users/malek/Documents/GitHub_Repos/C/C/calebYT/9_variables_expressions_statements.c",
+  "file": "/Users/malek/Documents/GitHub_Repos/C/C/calebYT/9_variables_expressions_statements.c",
+  "output": "CMakeFiles/C.dir/calebYT/9_variables_expressions_statements.c.o"
+}
+]
