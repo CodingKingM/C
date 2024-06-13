@@ -1,16 +1,22 @@
 #include <stdio.h>
+int add(int a, int b);
+int main()
+{
 
-int main (){
+    int x;
+    int y;
 
-int n1;
-int n2;
+    printf("value of x:\n");
+    scanf("%i", &x);
+    printf("Value of y:\n");
+    scanf("%i", &y);
 
-printf("first value:");
-scanf("%i", &n1);
-printf("Second value:");
-scanf("%i", &n2);
-
-
+    printf("The sum of and x and y is %i", add(x, y));
 
     return 0;
+}
+
+int add(int a, int b)
+{
+    return a + b;
 }
